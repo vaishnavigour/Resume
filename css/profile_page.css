@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white
+}
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+img {
+  width: 30%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.profile-section {
+  color: navy;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.click {
+  font-size: 18px;
+  padding-left: 16px;
+}
+.profile-img-container {
+  display: block;
+  width: 500px;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 100px;
+}
+
+.contact-me {
+  text-decoration: none;
+  padding: 12px 24px;
+  background-color: steelblue;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 20px;
+}
